@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.date = File.mtime("VERSION").strftime("%Y-%m-%d")
 
   s.authors = ["epitron"]
-  s.summary = "Non-Standard Library"
-  s.description = "Extra classes and enhancements to make the Ruby environment nicer."
+  s.description = "The Non-Standard Library; Extra classes and enhancements to make the Ruby environment nicer."
+  s.summary = "The Non-Standard Library"
   s.email = "chris@ill-logic.com"
   s.extra_rdoc_files = ["LICENSE"]
 
@@ -19,9 +19,4 @@ Gem::Specification.new do |s|
   if s.respond_to? :specification_version
     s.specification_version = 3
   end
-
-  s.add_development_dependency "rspec", "~> 2"
-  #s.add_dependency "mechanize",     "~> 1.0.0"
-  #s.add_dependency "sqlite3-ruby",  ">= 0"
 end
-
